@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC News</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- centrol + / = comment-->
+    <h1>ABC NEWS</h1>
+        <!--file: mp3 = type: audio/mpeg -->
+        <!--file: wav = type: audio/wav-->
+        <!--file: ogg = type: audio/ogg-->
+        <!--loop is if you want to replay music-->
+    <audio controls loop muted>
+        <source src="music/Indecision.mp3" type="audio/mpeg">
+        <source src="music/Indecision.wav" type="audio/wav">
+        <source src="music/Indecision.ogg" type="audio/ogg">
+        YOUR BROWSER DOESN'T SUPPORT THIS AUDIO ELEMENT.
+    </audio>
+    <h2>Sport section</h2>
+    <h3>Football</h3>
+        
+          <table border="1">
+            <caption>Final World Cup</caption>
+            <thead bgcolor="yellow">
+            <tr>
+                <th>clubes</th>
+                <th>players</th>
+                <th>goals</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>brazil</td>
+                    <td rowspan="2">26</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>maroc</td>
+                    <td>110</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td colspan="2">312</td>
+                </tr>
+            </tfoot>
+          </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, modi.</p>
+    <h3>Basketball</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, nobis.</p>
+    <hr>
+    <h2 title="art section...">Art section</h2>
+         <!-- poster is for add thumbnail-->
+        <video width="400" controls poster="imgs/1.jpg">
+            <source src="video/vid1.mp4" type="video/mp4">
+            <source src="video/vid1.webm" type="video/webm">
+            <source src="video/vid1.ogg" type="video/ogg">
+            YOUR BROWSER DOESN'T SUPPORT THIS VIDEO ELEMENT.
+            <!--translate video: <track default src="" kind="subtitles" label="arabic"> -->
+        </video>
+    <h3>Films</h3>
+       <p>the top to down</p>
+        <ol type="1" reversed>
+            <li>prison break</li>
+            <li>la casa de papel</li>
+            <li>frander</li>
+            <li>pexy</li>
+        </ol>
+
+    <p><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Fugit cumque soluta, nesciunt.</small> magni earum placeat error fugiat v <br>
+         el doloremque animi tenetur adipisci recusandae sit velit eligendi. Sunt
+          voluptas animi H<sub>2</sub>O Hic illum X<sup>3</sup> iure <br> mollitia officiis consectetur
+           quidem harum atque! Consequuntur earum, laudantium maiores <br> eligendi nulla fugi
+           at eveniet. <u>Perferendis</u> odit.</p>
+    <h3>MACBOOK PRO</h3>
+    <!-- <b> for bold text </b>   <strong> for impertant text</strong> -->
+    <!-- <i> italic text </i>   <em> amphasize text </em> -->
+    <!-- <mark> mark text with yellow </mark> -->
+    <!-- <u> line text </u> -->
+    <!-- <s> formating text </s>   <del> deleted text </del> -->
+    <!-- <sub> text down of the line </sub>   <sup> text up of the line </sup> -->
+    <img border="5" title="This is Product Apple" src="imgs/3.jpg" alt="MACBOOK PRO">
+    <p><mark>Price: </mark>
+        <del>1299$</del>
+        <b>
+             999
+            <sup>
+                 <small>
+                    <small>99</small>
+                </small>
+            </sup>
+            $
+        </b>
+    </p>
+    <!-- link  -->
+    <a  href="/">google</a>
+    <a href=""><img src="" alt=""></a>
+    <br><br> 
+    <a href="#">twjih li haja f nafs safha</a>
+    <br> <br>
+    <a href="mailto:test@gmail.com">email</a>
+    <br> <br>
+    <a href="tel:0623546789">phone</a>
+    <br>
+    <br>
+    <!-- form mal2 istimara -->
+    <form method="post">
+        <div>
+            <label for="txt">Username:</label>
+            <input id="txt" type="text" name="user" placeholder="ahmed_ali" required>
+        </div>
+
+        <div>
+            <label for="pw" >Password:</label>
+            <input id="pw" type="password" name="password" placeholder="Ex: 123@/_aDgaWHk" required>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+</html>
