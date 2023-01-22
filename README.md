@@ -1,2 +1,1 @@
-# coursera-test
-Coursera test repository
+https://samiraabq.github.io/coursera-test
